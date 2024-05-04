@@ -1,0 +1,4 @@
+# ninja log v5
+0	181	1710504041854979253	CMakeFiles/qianfengEdu.dir/library.c.o	ae6560981ccf0155
+0	178	1710504051913396595	CMakeFiles/qianfengEdu.dir/Chapter1/hello.c.o	fd5dc7ba969ae6c0
+178	192	1710504051929683000	libqianfengEdu.a	6bc4c87d68425619

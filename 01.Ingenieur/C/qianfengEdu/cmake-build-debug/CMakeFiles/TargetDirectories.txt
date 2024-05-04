@@ -1,0 +1,3 @@
+/Users/myry/Documents/MyCProject/qianfengEdu/cmake-build-debug/CMakeFiles/qianfengEdu.dir
+/Users/myry/Documents/MyCProject/qianfengEdu/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/myry/Documents/MyCProject/qianfengEdu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

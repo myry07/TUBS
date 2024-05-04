@@ -1,6 +1,0 @@
-#ifndef QIANFENGEDU_LIBRARY_H
-#define QIANFENGEDU_LIBRARY_H
-
-void hello(void);
-
-#endif //QIANFENGEDU_LIBRARY_H
