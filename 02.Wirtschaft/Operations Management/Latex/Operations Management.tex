@@ -4,6 +4,7 @@
 \usepackage{graphicx} %图片包
 \usepackage{xcolor} %字体颜色
 \usepackage{caption} % 加载 caption 包 去掉Figure 1
+\usepackage{amsmath} %数学包
 
 
 
@@ -12,7 +13,7 @@
 % gbsn 宋体
 % gkai 楷体
 
-\title{Zusammenfassung des Begriffs des OM}
+\title{Zusammenfassung des OM}
 \author{Jiaqi Wang} % 可以在此处添加作者名
 \date{22.12.2024} % 此命令插入当前日期
 \maketitle % 这个命令会插入标题、作者和日期
@@ -36,7 +37,7 @@ befasst sich maßgeblich mit \textbf{produktionswirtschaftlichen} und \textbf{lo
 
 \section{Absatzplanung}
 
-\begin{itemize}
+\begin{enumerate}
 \item Referenzmodell OM:\\
 1. Planungshorizont: Jahre bis Tage (Zeitachse)\\
 2. Planungsprobleme: Absatzprognose, Absatzplanung\\
@@ -74,7 +75,16 @@ Niveau der Zeitreihe steigt \textbf{linear}\\
   \includegraphics[width=0.5\linewidth]{UE13.jpg}
 \end{figure}
 
+\item Type von Prognosenfehler:
+\begin{itemize}
+\item Mittlerer Fehler nach n Perioden
+\item Mittlerer absoluter Fehler nach n Perioden
+\item Mittlerer prozentualer Fehler
+\item Mittlerer absoluter prozentualer Fehler
 \end{itemize}
+
+
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%
 \newpage
@@ -86,6 +96,8 @@ Niveau der Zeitreihe steigt \textbf{linear}\\
 \begin{figure}[h!]
   \centering % 居中显示图片
   \includegraphics[width=0.6\linewidth]{VL31.png}\\
+   \caption*{Beschaffungsrisiko: 供应商延迟交货, 原材料价格波动, 供应链中断\\
+   Ergebniseinfluss: 任何可影响公司整体业绩的因素}
 \end{figure}
 \end{itemize}
 
@@ -128,14 +140,17 @@ Ziel: \textcolor{blue}{Möglichst nachfragegenaue Produktion und Beschaffung}
 
 \newpage
 \item ABC-Analyse:\\
-根据产品价值进行分类\\
+根据产品价值进行分类\\ 
+专注于: Planungsaktivität \& Optimierungsbemühung
+
 \begin{figure}[h!]
   \centering % 居中显示图片
   \includegraphics[width=0.4\linewidth]{VL35.png}\\
 \end{figure}
 
 \item XYZ-Analyse:\\
-根据计划\&预测Sicherheit进行分类
+根据计划\&预测Sicherheit进行分类\\
+也就是产品的  hohe, mittlere und schlechte Vorhersagegenauigkeit
 \begin{figure}[h!]
   \centering % 居中显示图片
   \includegraphics[width=0.6\linewidth]{VL36.png}\\
@@ -158,8 +173,8 @@ Puffer zwischen Produktion und Absatzmarkt
 Dezentrale Ansiedlung im gesamten Verkaufsgebiet\\
 
 \item vertikale \& horizontale Distributionsstruktur:\\[1mm]
-vertikal: Lagerstufen 数量的定义\\[1mm]
-horizontal: 不同Lagerstufen的仓库数量与位置的定义
+vertikal: Anzahl der Lagerstufen\\[1mm]
+horizontal: Anzahl der Läger pro Stufe
 \item zentrale vs dezentrale Lagerhaltung\\[1mm]
 zentral: 产品组合广泛,运输时间长,贵重物品,一个供货商,少量大客户\\[1mm]
 dezentral: 产品组合单一,运输快,产品便宜,多个供货商,许多小客户\\
@@ -172,10 +187,46 @@ Ziel: \textcolor{blue}{Transformation einer qualitativen Bewertung verschiedener
 将各种互斥行动方案的定性评估转化为统一的定量效益尺度
 
 \subsection{Standortplanung in Netzen}
--Warehouse Location Probleme\\[1mm]
+-Warehouse Location Probleme (仓库选址问题)\\[1mm]
 Ziel: \textcolor{blue}{Bestimmung eines oder mehrerer Standorte (und Transportmengen), so dass die Summe aus Fixkosten, variablen Betriebskosten und Transportkosten unter der Restriktion eines definierten Servicegrades minimiert wird}\\[1mm]
 确定一个或多个位置（及运输量），以便在定义的服务等级的限制下，将固定成本、可变运营成本和运输成本的总和最小化
 
+
+\subsection{Funktion}
+
+\begin{flushleft}
+dreistufiges kapazitiertes WLP:
+\end{flushleft}
+
+ \begin{itemize}
+ \item  ZF: $Min Z =   \sum_{h=1}^{H} \sum_{i=1}^{I} \textcolor{red}{ \bar{c_{hi}} \cdot \bar{x_{hi}}} +
+  \sum_{i=1}^{I} \sum_{j=1}^{J} \textcolor{blue}{\bar{c_{ij}} \cdot \bar{x_{ij}} }+ 
+  \sum_{i=1}^{I} \textcolor{green}{ f_i \cdot y_i}$
+
+
+ 
+\begin{center}
+\textcolor{red}{生产地 $\rightarrow$ 仓库} + \textcolor{blue}{仓库 $\rightarrow$ 客户} +  \textcolor{green}{仓库Fix}
+\end{center}
+
+\item 生产地容量限制: $\sum_{i=1}^{I}\bar{x_{hi}}\leq a_i$
+
+\item h到i的数量=i到j的数量 $\sum_{h=1}^{H}\bar{x_{hi}} - 
+\sum_{j=1}^{J} x_{ij}$
+
+\item 给客户的数量小于仓库极限 $\sum_{j=1}^{J}x_{ij} \leq b_i \cdot y_i$
+
+\end{itemize}
+
+\begin{flushleft}
+zweistufiges kapazitiertes WLP: 将$\bar{x}$阉割掉
+\end{flushleft}
+
+
+
+
+
+%%%%%%%%%%%%
 \newpage
 \section{Produktionssegmentierung}
 \subsection{Einführung}
@@ -183,6 +234,36 @@ Produktionssegment: Subsystem des Produktionsbereichs, welches eindeutig einem O
 werden kann\\[1mm]
 生产领域的子系统，可以明确地归属于一个组织类型。
 
+
+\subsection{Layoutplanung in der Werkstattproduktion}
+\begin{itemize}
+\item Planungsprobleme in Abhängigkeit der Aggregationsebene(聚合级别)
+
+\begin{enumerate}
+\item Hohe Aggregationsebene: 确定厂的位置\\
+\textcolor{purple}{Festlegung innerbetrieblicher Standorte} für Produktionssegmente
+\item Niedrigere Aggregationsebene: 确定车间的位置\\
+\textcolor{purple}{Festlegung von Standorten} innerhalb der einzelnen Produktionssegmente, z. B. Anordnung von Arbeitsplätzen im
+Rahmen der Werkstattproduktion
+\end{enumerate}
+
+
+\item Planungsaufgaben
+
+\begin{enumerate}
+\item Neugestaltung: 第一次Layout空厂房\\
+Erstmalige Bestimmung von Standorten für alle Produktionssegmente in einer leeren Fabrikhalle
+
+\item Umstellung: 改变结构\\
+Veränderung der Struktur des Materialflusses zwischen einzelnen Ressourcengruppen
+
+\item Erweitung: 放置额外的生产部门\\
+Platzierung eines zusätzlichen Produktionssegmentes
+\end{enumerate}
+
+\end{itemize}
+
+\newpage
 \subsection{Assembly Line Balancing in der Fließproduktion}
 根据产品数量 区分流水线种类
 \begin{itemize}
@@ -208,6 +289,35 @@ SALBP-2: Anzahl gegeben, Minimierung Taktzeit\\[1mm]
 SALBP-F: beide gegeben \textcolor{blue}{所以牛逼}\\[1mm]
 SALBP-E: beide Minimierung \textcolor{blue}{所以高效}
 
+\end{itemize}
+\newpage
+
+
+\subsection{Funktion}
+
+\begin{itemize}
+
+\item  ZF: $Min Z =   \sum_{ijkl}^{IJKL} 
+\textcolor{red}{c} 
+ \cdot \textcolor{blue}{x_{ij}}
+ \cdot \textcolor{blue}{x_{kl}}
+  \cdot \textcolor{green}{d_{jl}}
+   \cdot \textcolor{purple}{t_{ik}}\ \  \   \underline{ nicht linear }$ 
+   
+
+\textcolor{red}{Kostensatz}\\
+\textcolor{blue}{Maschine i/k 是否可放入Platz j/l \ 答案1/0}\\
+\textcolor{green}{Differenz Platz d 和 j}\\
+\textcolor{purple}{Transportmenge 机器i 和 k}
+   
+ \item Platz限制: $\sum_{i=1}^{I} x_{ij} \leq 1$
+ \item 机器限制: $\sum_{i=1}^{I} x_{ij} = 1$\\[5mm]
+ 
+ \item Taktzeit $c = \frac{3600 Sekunden}{Anzahl der Mengen}$
+ 
+\item Station数量 $\lceil \frac{\sum \tau}{c} \rceil$
+
+ 
 \end{itemize}
 
 
