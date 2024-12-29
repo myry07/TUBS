@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.17)  27 DEC 2024 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.17)  29 DEC 2024 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,28 +399,28 @@ File: UTF8.chr 2021/10/16 4.8.5
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (10.68428pt too wide) in paragraph at lines 48--53
+Overfull \hbox (10.68428pt too wide) in paragraph at lines 47--52
 \OT1/cmr/m/n/12 2. Ab-satz-pla-nung: ist eine auf der Prog-nose beruhende Be-da
 rf-ssch^^?atzung,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--53
+Underfull \hbox (badness 10000) in paragraph at lines 47--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
 <UE11.jpg, id=10, 995.72pt x 437.635pt>
 File: UE11.jpg Graphic file (type jpg)
 <use UE11.jpg>
-Package pdftex.def Info: UE11.jpg  used on input line 59.
+Package pdftex.def Info: UE11.jpg  used on input line 58.
 (pdftex.def)             Requested size: 195.0pt x 85.70241pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
@@ -428,26 +428,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--64
 <UE12.jpg, id=14, 759.83875pt x 383.4325pt>
 File: UE12.jpg Graphic file (type jpg)
 <use UE12.jpg>
-Package pdftex.def Info: UE12.jpg  used on input line 67.
+Package pdftex.def Info: UE12.jpg  used on input line 66.
 (pdftex.def)             Requested size: 195.0pt x 98.3971pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 <UE13.jpg, id=15, 862.22125pt x 419.5675pt>
 File: UE13.jpg Graphic file (type jpg)
 <use UE13.jpg>
-Package pdftex.def Info: UE13.jpg  used on input line 75.
+Package pdftex.def Info: UE13.jpg  used on input line 74.
 (pdftex.def)             Requested size: 195.0pt x 94.88516pt.
 [2 <./UE12.jpg> <./UE13.jpg>]
 <VL31.png, id=19, 494.84875pt x 487.8225pt>
 File: VL31.png Graphic file (type png)
 <use VL31.png>
-Package pdftex.def Info: VL31.png  used on input line 98.
+Package pdftex.def Info: VL31.png  used on input line 97.
 (pdftex.def)             Requested size: 234.00238pt x 230.676pt.
 LaTeX Font Info:    Trying to load font information for C70+gbsn on input line 
-100.
+99.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fd
 File: c70gbsn.fd 2021/10/16 4.8.5
@@ -455,122 +455,127 @@ File: c70gbsn.fd 2021/10/16 4.8.5
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cjk/texinput/UTF8/c70gbsn.fdx
 File: c70gbsn.fdx 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 Missing character: There is no ^^H in font gbsnu03!
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
 <VL32.png, id=44, 1092.08pt x 245.91875pt>
 File: VL32.png Graphic file (type png)
 <use VL32.png>
-Package pdftex.def Info: VL32.png  used on input line 119.
+Package pdftex.def Info: VL32.png  used on input line 118.
 (pdftex.def)             Requested size: 272.99881pt x 61.47202pt.
 [3 <./VL31.png>]
 <VL33.png, id=71, 1092.08pt x 309.155pt>
 File: VL33.png Graphic file (type png)
 <use VL33.png>
-Package pdftex.def Info: VL33.png  used on input line 126.
+Package pdftex.def Info: VL33.png  used on input line 125.
 (pdftex.def)             Requested size: 272.99881pt x 77.27911pt.
 <VL34.png, id=77, 1092.08pt x 347.2975pt>
 File: VL34.png Graphic file (type png)
 <use VL34.png>
-Package pdftex.def Info: VL34.png  used on input line 138.
+Package pdftex.def Info: VL34.png  used on input line 137.
 (pdftex.def)             Requested size: 272.99881pt x 86.81355pt.
  [4 <./VL32.png> <./VL33.png> <./VL34.png>]
 <VL35.png, id=96, 435.6275pt x 207.77625pt>
 File: VL35.png Graphic file (type png)
 <use VL35.png>
-Package pdftex.def Info: VL35.png  used on input line 148.
+Package pdftex.def Info: VL35.png  used on input line 147.
 (pdftex.def)             Requested size: 155.99762pt x 74.40308pt.
 <VL36.png, id=101, 888.31876pt x 359.3425pt>
 File: VL36.png Graphic file (type png)
 <use VL36.png>
-Package pdftex.def Info: VL36.png  used on input line 156.
+Package pdftex.def Info: VL36.png  used on input line 155.
 (pdftex.def)             Requested size: 234.00238pt x 94.65506pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
 
  []
 
 [5 <./VL35.png> <./VL36.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--181
+Underfull \hbox (badness 10000) in paragraph at lines 177--180
 
  []
 
-[6]
-Overfull \hbox (0.80984pt too wide) in paragraph at lines 190--193
-\OT1/cmr/m/n/12 dass die Summe aus Fixkosten, vari-ablen Be-trieb-skosten und T
-rans-portkosten
- []
-
-[7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<VL51.png, id=161, 561.09625pt x 201.75375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+
+ []
+
+[9]
+<VL51.png, id=165, 561.09625pt x 201.75375pt>
 File: VL51.png Graphic file (type png)
 <use VL51.png>
-Package pdftex.def Info: VL51.png  used on input line 283.
+Package pdftex.def Info: VL51.png  used on input line 319.
 (pdftex.def)             Requested size: 155.99762pt x 56.09045pt.
-[9 <./VL51.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
-
- []
-
-[10]
+ [10 <./VL51.png>]
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
 [11]
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 
-Overfull \hbox (18.88744pt too wide) in paragraph at lines 344--346
+Overfull \hbox (18.88744pt too wide) in paragraph at lines 404--406
 \OT1/cmr/m/n/12 Bestandsmanagement beschaftigt sich mit der Be-tra-ch-tung alle
 r im Un-ternehmen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
-<VL71.png, id=181, 806.01125pt x 331.2375pt>
+<VL71.png, id=180, 806.01125pt x 331.2375pt>
 File: VL71.png Graphic file (type png)
 <use VL71.png>
-Package pdftex.def Info: VL71.png  used on input line 349.
+Package pdftex.def Info: VL71.png  used on input line 409.
 (pdftex.def)             Requested size: 312.00119pt x 128.21674pt.
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
 [12 <./VL71.png>]
-Overfull \hbox (14.98317pt too wide) in paragraph at lines 355--358
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+
+ []
+
+[14]
+Overfull \hbox (14.98317pt too wide) in paragraph at lines 547--550
 \OT1/cmr/bx/n/12 se-quen-zielle Pla-nung \OT1/cmr/m/n/12 - sukzes-sive Bes-tim-
 mung von Be-dar-fen, Losgr^^?o^^Yen
  []
 
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
 
-Overfull \hbox (2.36816pt too wide) in paragraph at lines 364--367
+Overfull \hbox (2.36816pt too wide) in paragraph at lines 556--560
 []\OT1/cmr/m/n/12 Prob-lem[]: In-ter-de-pen-den-zen zwis-chen Mengen-, Termin- 
 und Los-gro^^Yen-
  []
@@ -578,21 +583,50 @@ und Los-gro^^Yen-
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
-<VL81.png, id=190, 1059.96pt x 481.8pt>
+<VL81.png, id=200, 1059.96pt x 481.8pt>
 File: VL81.png Graphic file (type png)
 <use VL81.png>
-Package pdftex.def Info: VL81.png  used on input line 373.
-(pdftex.def)             Requested size: 350.99762pt x 159.54585pt.
-[13 <./VL81.png>]
+Package pdftex.def Info: VL81.png  used on input line 566.
+(pdftex.def)             Requested size: 234.00238pt x 106.3639pt.
+[15 <./VL81.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+
+ []
+
+[16]
 Missing character: There is no ^^H in font gbsnu03!
 Missing character: There is no ^^H in font gbsnu03!
-[14] (./Operations Management.aux) ) 
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--625
+
+ []
+
+
+LaTeX Warning: Command \L invalid in math mode on input line 645.
+
+[17]
+Missing character: There is no ^^H in font gbsnu03!
+[18]
+Overfull \hbox (12.7812pt too wide) in paragraph at lines 709--709
+[]\OT1/cmr/bx/n/14.4 Losgr^^?o^^Yenplanung in der Flie^^Ypro-duk-tion (Mehrpro-
+
+ []
+
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+Missing character: There is no ^^H in font gbsnu03!
+[19] (./Operations Management.aux) ) 
 Here is how much of TeX's memory you used:
- 6720 strings out of 476025
- 103891 string characters out of 5790017
- 1859388 words of memory out of 5000000
- 26936 multiletter control sequences out of 15000+600000
- 535735 words of font info for 116 fonts, out of 8000000 for 9000
+ 6898 strings out of 476025
+ 106854 string characters out of 5790017
+ 1861388 words of memory out of 5000000
+ 27079 multiletter control sequences out of 15000+600000
+ 538866 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,7n,67p,299b,1094s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/t
@@ -600,70 +634,75 @@ ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2023/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphi
-c/gbsnu/gbsnu30.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsn
-u/gbsnu4e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
-u4f.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pf
-b></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/20
-23/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu55.pfb></usr/local/texlive/2023/tex
-mf-dist/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/local/texlive/2023/texmf-dis
-t/fonts/type1/arphic/gbsnu/gbsnu57.pfb></usr/local/texlive/2023/texmf-dist/font
-s/type1/arphic/gbsnu/gbsnu59.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
-1/arphic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arph
-ic/gbsnu/gbsnu5c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbs
-nu/gbsnu5d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbs
-nu5e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.p
-fb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb></u
-sr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/local/texlive/2
-023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/local/texlive/2023/te
-xmf-dist/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local/texlive/2023/texmf-di
-st/fonts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texlive/2023/texmf-dist/fon
-ts/type1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
-e1/arphic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arp
-hic/gbsnu/gbsnu6d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gb
-snu/gbsnu70.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gb
-snu72.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/te
-xlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/
-2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2023/t
-exmf-dist/fonts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2023/texmf-d
-ist/fonts/type1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2023/texmf-dist/fo
-nts/type1/arphic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
-pe1/arphic/gbsnu/gbsnu7d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ar
-phic/gbsnu/gbsnu7e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/g
-bsnu/gbsnu7f.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/g
-bsnu80.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81
-.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb><
-/usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/l
-ocal/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive
-/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb></usr/local/texlive/2023/
-texmf-dist/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/local/texlive/2023/texmf-
-dist/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/arphic/gbsnu/gbsnu90.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
-ype1/arphic/gbsnu/gbsnu91.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/a
-rphic/gbsnu/gbsnu94.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/
-gbsnu/gbsnu95.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/
-gbsnu96.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9
-7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "Operations Management.pdf" (15 pages, 1746321 bytes).
+ype1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsn
+u/gbsnu30.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsn
+u4e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu4f.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu50.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu51.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu52.pfb></usr/local/texl
+ive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu53.pfb></usr/local/texlive/20
+23/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu54.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/arphic/gbsnu/gbsnu55.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/arphic/gbsnu/gbsnu56.pfb></usr/local/texlive/2023/texmf-dist/font
+s/type1/arphic/gbsnu/gbsnu57.pfb></usr/local/texlive/2023/texmf-dist/fonts/type
+1/arphic/gbsnu/gbsnu59.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arph
+ic/gbsnu/gbsnu5b.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbs
+nu/gbsnu5c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbs
+nu5d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5e.p
+fb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu5f.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu60.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu62.pfb></usr/local/tex
+live/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu63.pfb></usr/local/texlive/2
+023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu65.pfb></usr/local/texlive/2023/te
+xmf-dist/fonts/type1/arphic/gbsnu/gbsnu66.pfb></usr/local/texlive/2023/texmf-di
+st/fonts/type1/arphic/gbsnu/gbsnu67.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/arphic/gbsnu/gbsnu68.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
+e1/arphic/gbsnu/gbsnu6b.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arp
+hic/gbsnu/gbsnu6c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gb
+snu/gbsnu6d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gb
+snu6e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu70.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu72.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu73.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu74.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu75.pfb></usr/local/texlive/
+2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu76.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/arphic/gbsnu/gbsnu78.pfb></usr/local/texlive/2023/texmf-d
+ist/fonts/type1/arphic/gbsnu/gbsnu79.pfb></usr/local/texlive/2023/texmf-dist/fo
+nts/type1/arphic/gbsnu/gbsnu7a.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
+pe1/arphic/gbsnu/gbsnu7b.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ar
+phic/gbsnu/gbsnu7c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/g
+bsnu/gbsnu7d.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/g
+bsnu7e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu7f
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu80.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu81.pfb></usr/l
+ocal/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu82.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu84.pfb></usr/local/texlive
+/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu88.pfb></usr/local/texlive/2023/
+texmf-dist/fonts/type1/arphic/gbsnu/gbsnu89.pfb></usr/local/texlive/2023/texmf-
+dist/fonts/type1/arphic/gbsnu/gbsnu8b.pfb></usr/local/texlive/2023/texmf-dist/f
+onts/type1/arphic/gbsnu/gbsnu8d.pfb></usr/local/texlive/2023/texmf-dist/fonts/t
+ype1/arphic/gbsnu/gbsnu8e.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/a
+rphic/gbsnu/gbsnu8f.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/
+gbsnu/gbsnu90.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/
+gbsnu91.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9
+4.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu95.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu96.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu97.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu98.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/arphic/gbsnu/gbsnu9a.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/arphic/gbsnu/gbsnuff.pfb></usr/local/texlive/2023/texmf
+-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "Operations Management.pdf" (20 pages, 1821621 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
+ 526 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 309 words of extra memory for PDF output out of 10000 (max. 10000000)
 
