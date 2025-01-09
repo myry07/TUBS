@@ -1,0 +1,209 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc} % 用于输入编码设置
+\usepackage{CJKutf8} %中文
+\usepackage{graphicx} %图片包
+\usepackage{xcolor} %字体颜色
+\usepackage{caption} % 加载 caption 包 去掉Figure 1
+\usepackage{amsmath} %数学包
+\usepackage{amsmath}
+
+
+
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}%显示中文% gbsn 宋体
+% gkai 楷体
+
+\title{Zusammenfassung des OR}
+\author{Jiaqi Wang} % 可以在此处添加作者名
+\date{07.01.2024} % 此命令插入当前日期
+\maketitle % 这个命令会插入标题、作者和日期
+\pagenumbering{gobble} %隐藏页码
+
+\vspace{5cm}
+
+\section{Einführung} % 文章第一节，引言
+
+\begin{itemize}
+
+\item OR: Entwicklung und der Einsatz von mathematischen Verfahren zur Unterstützung von (betriebswirtschaftlichen) Entscheidungsprozessen
+
+\item Mathematisches Modell \& Problemdefinition:
+\begin{enumerate}
+\item Zielfunktion: Was wollen wir erreichen?
+\item Nebenbedingungen: Worauf müssen wir achten?
+\item Entscheidungsvariablen: Was können wir ändern?
+\end{enumerate}
+
+\end{itemize}
+
+\newpage
+%%%%%%%%%%%%%
+\section{Simplex-Algorithmus}
+Frage: 如何解决线性问题?
+\subsection{Simplex}
+
+\begin{itemize}
+\item Definitionen
+
+\begin{enumerate}
+\item Strukturvariablen: 矩阵第一行的前几个 $x_1, x_2...$
+\item Schlupfvariablen: 矩阵第一行的后几个 $x_4, x_5...$
+
+\item Basis: 矩阵变换后 不等于0的
+\item NB: 矩阵变换后 等于0的\\
+\textbf{\textcolor{red}{Schlupf与Struktur不会变化 B与NB会变化}}
+
+\item Restriktionsvektor: 矩阵最后一列 除了\textbf{\textcolor{blue}{ZFW}}
+
+\end{enumerate}
+
+
+\item primaler Simplex计算过程
+\begin{enumerate}
+\item 找\textbf{\textcolor{red}{最大}}的ZF系数 (矩阵第一行) \\
+该ZF系数所在的列 -$>$ Pivotsplate
+
+\item 该列所有的系数 (不要ZF系数 \& $\geq0$)被RS除\\
+结果\textbf{\textcolor{red}{最小}}的-$>$ Pivotelemet
+
+\item 行列式化简 Pivotsplate 只有 Pivotelemet = 1 其余都=0
+
+\item 循环 直到ZF系数 $\geq0$
+
+
+\end{enumerate}
+
+\end{itemize}
+
+
+
+\newpage
+%%%%%%%%%%%%%%
+\section{Sensitivitätsanalyse}
+Frage: RBn轻微改变会发生什么? u.d.N. 中的 Engpässe
+
+\subsection{Ökonomische Interpretation}
+\begin{itemize}
+\item 无Engpass: optimal时 Schlupf$\neq$0 则该NB无Engpass
+\item 有Engpass: optimal时 Schlupf=0 则该NB有Engpass\\
+\underline{Schlupf=0代表该NB到达极限了 不能更进一步了 所以瓶颈}
+
+\item Schattenpreis: 某个NB的松弛 对于ZF的变化率\\
+Endtableau中 Schlupf的系数
+
+\end{itemize}
+
+\subsection{Sensitivitätsanalyse}
+观察ZF系数 与 RS系数变化的反应
+\begin{center}
+\textcolor{red}{RS -$>$ Schlupf} \ \textcolor{blue}{ZF -$>$ Struktur}
+\end{center}
+
+\begin{itemize}
+\item 是BV 在行中找
+\begin{enumerate}
+\item $\underline{\lambda_k}$ = RS系数 (因为出现在End矩阵某行中)
+\item $\overline{\lambda_k} = \infty$ 
+
+\item $\underline{\mu_k}$ = \textcolor{red}{-}ZF/行 (行中出现了)
+\item$\overline{\mu_k} = \infty$
+
+
+\end{enumerate}
+
+\item 是NBV 在列中找
+\begin{enumerate}
+\item $\underline{\lambda_k}$ = RS/列 (与Pivotelemet算法一致 $>0$) \\
+若无非负列 $\underline{\lambda_k} = \infty$ 
+\item $\overline{\lambda_k}$ = \textcolor{red}{-}RS/列 (与Pivotelemet算法一致 $<0$)\\若无负列 $\underline{\lambda_k} = \infty$ 
+
+\item $\underline{\mu_k} = \infty$ 
+\item  $\overline{\mu_k} = $ ZF系数 (因为行中没有 只有列才有)
+
+\end{enumerate}
+\end{itemize}
+
+
+\newpage
+%%%%%%%%%%%%
+\section{Dualer Simplex \& Dualität}
+
+\begin{align*}
+\text{Frage:} &\quad \text{一般情况下，Starttableau 中 ZF 的 Schlupf} = 0 \\
+&\quad \text{如果 } 0 \text{ 不是可行解会怎样？}
+\end{align*}
+
+\subsection{Duales Programm}
+\begin{itemize}
+\item Definition
+\begin{enumerate}
+\item primales Modell: 原始模型 生产者视角 ZF \textcolor{red}{max} Deckungsbeitrag
+\item duales Modell: 对偶模型 购买者视角 ZF \textcolor{red}{min} Gesamtkaufpreis
+\end{enumerate}
+
+
+\item 二者矩阵关系
+\begin{enumerate}
+\item primal的Struktur = \textcolor{red}{-} dual的RS转秩
+\item primal的RS = \textcolor{red}{-} dual的Struktur转秩
+\item Struktur \& NBV 的矩阵 互为转秩 并 $(\cdot -)$
+
+\end{enumerate}
+
+\item 何时用Dual
+\begin{enumerate}
+\item RS$<$0 \& ZF系数小于0
+\\很好理解 根据二者矩阵关系 一转换可知 priaml时 RS ZF都$>$0
+
+\end{enumerate}
+
+\item dualer Simplex计算过程
+\begin{enumerate}
+\item 找到最小的非正RS -$>$ Pivotzeile
+\item ZF/该行的x (该x$<0$) 最小的是 Pivotelemet
+\item 之后与primaler一致 \ 直至RS与ZF $>0$
+\item 若RS$>$0 \ 但ZF$<$0 用primaler Simplex
+\end{enumerate}
+\end{itemize}
+
+
+\newpage
+%%%%%%%%%%%
+\section{Ganzzahlige Programmierung \& Branch and Bound}
+Frage: 比如寻找人数必须是整数
+
+\begin{itemize}
+\item Branch and Bound Verfahren
+
+\begin{enumerate}
+\item 用Simplex计算出 交点与值($x_1$,$x_2$,ZFW)
+\item 选择其中的非整数 向下取整\&向下取整+1 并且求出各自的ZFW
+\item 直到ZFW是整数\&最大 
+
+\end{enumerate}
+\end{itemize}
+
+
+\newpage
+%%%%%%%%%%%%
+\section{Mehrfache Zielsetzung \& Modellierungstechniken}
+Frage: 有多个Ziel如何解决?
+
+\begin{itemize}
+\item Mehrzieloptimierung
+
+\begin{enumerate}
+\item 对Ziel排序
+\item 对于Ziel A 直接用Simplex计算出 $x_1, x_2...ZFW$
+\item 对于Ziel B 将Ziel的结果代入NB\ 再用Simplex
+\item 以此类推
+
+
+
+\end{enumerate}
+\end{itemize}
+
+
+
+\end{CJK*}
+\end{document}
